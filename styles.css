@@ -27,7 +27,6 @@ h1 {
 }
 
 .card {
-  /* color: #013243; */
   color: #000;
   position: absolute;
   top: 50%;
@@ -43,7 +42,7 @@ h1 {
 }
 
 .card:hover {
-  transform: translate(-50%, -50%) perspective(2000px) rotate(15deg) scale(1.2);
+  transform: translate(-50%, -50%) perspective(2000px) rotate(10deg) scale(1.2);
   box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5),
     0 10px 100px rgba(0, 0, 0, 0.5);
 }
